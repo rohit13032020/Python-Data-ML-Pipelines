@@ -67,6 +67,7 @@ def create_pipeline(X_train):
         ("preprocessor", preprocessor),
         ("classifier", LogisticRegression(max_iter=1000))
     ])
+    
 
     return pipeline
 
